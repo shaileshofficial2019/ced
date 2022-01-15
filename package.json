@@ -14,6 +14,7 @@
     "build": "next build",
     "start": "next start",
     "deploy": "vercel --prod",
+    "exp": "next export",
     "deps": "run-s deps:*",
     "deps:update": "[ -z $GITHUB_ACTIONS ] && yarn add notion-client notion-types notion-utils react-notion-x || echo 'Skipping deps:update on CI'",
     "deps:link": "[ -z $GITHUB_ACTIONS ] && yarn link notion-client notion-types notion-utils react-notion-x || echo 'Skipping deps:link on CI'",
@@ -34,6 +35,7 @@
     "isomorphic-unfetch": "^3.1.0",
     "lqip-modern": "^1.2.0",
     "next": "^11.1.2",
+    "next-pwa": "^5.4.4",
     "node-fetch": "^2.6.1",
     "notion-client": "^4.10.0",
     "notion-types": "^4.10.0",
@@ -48,7 +50,12 @@
     "react-static-tweets": "^0.5.3",
     "react-use": "^17.2.4",
     "static-tweets": "^0.5.3",
-    "use-dark-mode": "^2.3.1"
+    "use-dark-mode": "^2.3.1",
+    "workbox-core": "^6.4.2",
+    "workbox-expiration": "^6.4.2",
+    "workbox-precaching": "^6.4.2",
+    "workbox-routing": "^6.4.2",
+    "workbox-strategies": "^6.4.2"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^11.1.2",

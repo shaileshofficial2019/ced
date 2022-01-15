@@ -1,6 +1,7 @@
 {
-  "name": "Transitive Bullshit",
-  "short_name": "Transitive BS",
+  "name": "Civil Engineering Doc",
+  "description":"Civil Engineering Wikipedia",
+  "short_name": "Civil Doc",
   "icons": [
     {
       "src": "/favicon-16x16.png",
@@ -25,7 +26,8 @@
     {
       "src": "/android-chrome-192x192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "maskable"
     },
     {
       "src": "/android-chrome-512x512.png",
@@ -34,6 +36,8 @@
     }
   ],
   "theme_color": "#F898B9",
+  "start_url":"/",
   "background_color": "#ffffff",
-  "display": "standalone"
+  "display": "standalone",
+  "scope":"/"
 }

@@ -1,5 +1,5 @@
-import * as React from 'react'
-import { FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa'
+import * as React from 'react';
+import { FaTwitter, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { IoSunnyOutline, IoMoonSharp } from 'react-icons/io5'
 import * as config from 'lib/config'
 
@@ -50,6 +50,7 @@ export const Footer: React.FC<{
             rel='noopener noreferrer'
           >
             <FaTwitter />
+            
           </a>
         )}
 
@@ -62,6 +63,7 @@ export const Footer: React.FC<{
             rel='noopener noreferrer'
           >
             <FaGithub />
+            
           </a>
         )}
 
@@ -74,6 +76,7 @@ export const Footer: React.FC<{
             rel='noopener noreferrer'
           >
             <FaLinkedin />
+            
           </a>
         )}
       </div>

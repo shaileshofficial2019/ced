@@ -20,7 +20,7 @@ export const getStaticProps = async (context) => {
 
     return { props, revalidate: 10 }
   } catch (err) {
-    console.error('page error', domain, rawPageId, err)
+    // console.error('page error', domain, rawPageId, err)
 
     // we don't want to publish the error version of this page, so
     // let next.js know explicitly that incremental SSG failed
@@ -50,7 +50,7 @@ export async function getStaticPaths() {
     fallback: true
   }
 
-  console.log(ret.paths)
+  // console.log(ret.paths)
   return ret
 }
 
