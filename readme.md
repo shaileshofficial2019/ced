@@ -16,7 +16,7 @@ This repo is what I use to power my personal blog / portfolio site [transitivebu
 
 It uses Notion as a CMS, fetching content from Notion and then uses [Next.js](https://nextjs.org/) and [react-notion-x](https://github.com/NotionX/react-notion-x) to render everything.
 
-The site is then deployed to [Vercel](http://vercel.com).
+The site is then deployed to [Vercel](http://vercel.com) and [Netlify](https://netlify.com).
 
 ## Features
 
